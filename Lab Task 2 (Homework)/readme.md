@@ -1,3 +1,20 @@
+# Table of Contents
+- [1. Display Multiplication Table](#display-multiplication-table)
+  - [Purpose](#purpose)
+  - [Code Breakdown](#code-breakdown)
+  - [Example Output](#example-output)
+  - [Conclusion](#conclusion)
+- [2. Swap Two Numbers](#swap-two-numbers)
+  - [Method 1: Simple Swapping (No Logic Swapping)](#method-1-simple-swapping-no-logic-swapping)
+  - [Method 2: Logically Swapping Two Numbers](#method-2-logically-swapping-two-numbers)
+  - [Conclusion](#conclusion-1)
+- [3. Swapping Numbers Using Two Variables](#swapping-numbers-using-two-variables)
+  - [Code](#code)
+  - [Example](#example)
+  - [Conclusion](#conclusion-2)
+
+---
+
 # Display Multiplication Table
 
 This Python program allows the user to input a number, and it then displays the multiplication table of that number from 1 to 10.
