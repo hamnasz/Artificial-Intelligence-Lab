@@ -2,7 +2,7 @@
 
 This Python program allows the user to input a number, and it then displays the multiplication table of that number from 1 to 10.
 
-Lab Task 2 (Homework)/1. Display Table.ipynb
+---
 
 ## Purpose:
 
