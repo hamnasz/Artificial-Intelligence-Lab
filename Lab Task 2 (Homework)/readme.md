@@ -171,3 +171,59 @@ These two methods show how to swap two numbers:
 Both approaches help learners understand basic concepts like variable assignment and swapping in Python.
 
 ---
+
+# Swapping Numbers Using Two Variables
+
+This Python notebook demonstrates how to swap two numbers without using a third variable. It uses basic arithmetic operations to swap the values of two variables.
+
+---
+
+## Code:
+
+```python
+# Taking two numbers as input
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+
+# Displaying numbers before swapping
+print("Before swapping: a = {}, b = {}".format(a, b))
+
+# Swapping the values using arithmetic operations
+a = a + b
+b = a - b
+a = a - b
+
+# Displaying numbers after swapping
+print("After swapping: a = {}, b = {}".format(a, b))
+```
+
+### Explanation:
+1. **Input**: The program prompts the user to input two numbers, `a` and `b`.
+2. **Before Swap**: It prints the values of `a` and `b` before the swapping process.
+3. **Swapping**: The program swaps the values using three arithmetic operations:
+   - `a = a + b`: The sum of `a` and `b` is stored in `a`.
+   - `b = a - b`: Now, `b` is set to the original value of `a` by subtracting the original `b` from the sum.
+   - `a = a - b`: Finally, the original value of `b` is subtracted from the sum to get the original value of `b` stored in `a`.
+4. **After Swap**: It prints the new values of `a` and `b` after the swapping process.
+
+---
+
+### Example:
+
+If the user inputs:
+```
+First Number = 4
+Second Number = 6
+```
+
+The output will be:
+```
+Before swapping: a = 4, b = 6
+After swapping: a = 6, b = 4
+```
+
+---
+
+## Conclusion:
+
+This approach efficiently swaps two numbers without needing a third variable. It demonstrates how arithmetic operations can be used for value swapping and reinforces basic mathematical manipulation in programming.
