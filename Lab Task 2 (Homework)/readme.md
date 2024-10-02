@@ -67,3 +67,107 @@ This simple Python program demonstrates the use of:
 - Loops
 - User input
 - Basic arithmetic operations
+
+---
+
+# Swap Two Numbers
+
+This Python notebook demonstrates two methods to swap the values of two variables:
+1. Simple swapping without logic.
+2. Logical swapping using a temporary variable.
+
+---
+
+## Method 1: Simple Swapping (No Logic Swapping)
+
+This is a basic method where the values of two variables are swapped by changing their assignments without any additional logic.
+
+### Code:
+
+```python
+# Taking two numbers as input
+a = int(input('Enter First Number: '))
+b = int(input('Enter Second Number: '))
+
+# Displaying numbers before swapping
+print('Before Swapping First Number = ', a, ', Second Number = ', b)
+
+# Swapping the values
+temp = a
+a = b
+b = temp
+
+# Displaying numbers after swapping
+print('After Swapping First Number = ', a, ', Second Number = ', b)
+```
+
+### Explanation:
+1. **Input**: The program asks the user to enter two numbers.
+2. **Before Swap**: It prints the values of `a` and `b` before swapping.
+3. **Swapping**: A third variable `temp` is used to hold the value of `a` while `a` is assigned the value of `b` and then `b` gets the value stored in `temp`.
+4. **After Swap**: It prints the values of `a` and `b` after the swap.
+
+### Example:
+
+If the user inputs:
+```
+First Number = 2
+Second Number = 5
+```
+
+The output will be:
+```
+Before Swapping First Number = 2, Second Number = 5
+After Swapping First Number = 5, Second Number = 2
+```
+
+---
+
+## Method 2: Logically Swapping Two Numbers
+
+This method uses a temporary variable for the swapping process.
+
+### Code:
+
+```python
+# Taking two numbers as input
+a = int(input('Enter First Number: '))
+b = int(input('Enter Second Number: '))
+
+# Logical Swapping using a temporary variable
+temp = a
+a = b
+b = temp
+
+# Displaying swapped numbers
+print("After swapping: First Number = {}, Second Number = {}".format(a, b))
+```
+
+### Explanation:
+1. **Input**: The program asks the user to input two numbers.
+2. **Swapping**: A temporary variable `temp` is used to facilitate swapping.
+3. **Output**: The program displays the numbers after the swapping process is complete.
+
+### Example:
+
+If the user inputs:
+```
+First Number = 6
+Second Number = 3
+```
+
+The output will be:
+```
+After swapping: First Number = 6, Second Number = 3
+```
+
+---
+
+## Conclusion:
+
+These two methods show how to swap two numbers:
+- The first method directly changes the values without using a temporary variable (conceptually).
+- The second method uses a temporary variable to hold one value during the swap.
+Both approaches help learners understand basic concepts like variable assignment and swapping in Python.
+
+---
